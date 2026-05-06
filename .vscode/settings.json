@@ -1,0 +1,9 @@
+// VSCODE 및 확장 프로그램 동작 방식 설정파일
+{
+    "cph.language.cpp.Command": "/usr/bin/clang++",
+    "cph.language.cpp.Args": "-std=c++17 -I${workspaceFolder}/include"
+}
+
+// 현재 bits/stdc++.h 위치
+// /Library/Developer/CommandLineTools/usr/include/bits/stdc++.h
+// 지금 디렉토리의 /incldue/
