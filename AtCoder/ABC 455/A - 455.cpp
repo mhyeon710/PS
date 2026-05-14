@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#define ll      long long
+#define pii     pair<int, int>
+#define pll     pair<ll, ll>
+#define fio()   cin.tie(0), cout.tie(0), ios_base::sync_with_stdio(false)
+using namespace std;
+
+int main() {
+    fio();
+    int a, b, c;
+    cin >> a >> b >> c;
+
+    if (a != b && b == c) cout << "Yes\n";
+    else cout << "No\n";
+    
+    return 0;
+}
