@@ -1,5 +1,3 @@
-package SWEA;
-
 import java.util.Scanner;
 
 class Solution {
