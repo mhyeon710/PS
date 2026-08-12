@@ -11,8 +11,10 @@ class Solution {
 			int t = sc.nextInt();
 			int N = sc.nextInt();
 			int M = sc.nextInt();
-			System.out.println("#" + test_case + " " + multiply(N, M));
+			System.out.println("#" + t + " " + multiply(N, M));
 		}
+
+		sc.close();
 	}
 	
 	public static int multiply(int now, int left) {
